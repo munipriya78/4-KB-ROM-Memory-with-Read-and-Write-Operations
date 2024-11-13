@@ -55,8 +55,9 @@ always @(posedge clk) begin
     // Read operation: Read data from the ROM at the given address
     data_out <= rom[address];
 end
-endmodule
 ```
+endmodule
+
 
 
 Testbench for 4KB ROM Memory
